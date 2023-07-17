@@ -1,23 +1,24 @@
 {
-  "name": "connect_wallet",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@metamask/sdk": "^0.5.2",
-    "autoprefixer": "^10.4.13",
-    "next": "13.0.6",
-    "postcss": "^8.4.19",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "tailwindcss": "^3.2.4"
-  },
-  "devDependencies": {
-    "prettier": "^2.8.0"
-  }
+    "name": "connect_wallet",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@metamask/sdk": "^0.5.2",
+        "autoprefixer": "^10.4.13",
+        "ethers": "5.7.2",
+        "next": "13.0.6",
+        "postcss": "^8.4.19",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "tailwindcss": "^3.2.4"
+    },
+    "devDependencies": {
+        "prettier": "^2.8.0"
+    }
 }
