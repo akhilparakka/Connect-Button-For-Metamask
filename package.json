@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@metamask/sdk": "^0.5.2",
     "autoprefixer": "^10.4.13",
     "next": "13.0.6",
     "postcss": "^8.4.19",
